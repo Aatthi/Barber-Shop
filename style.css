@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #101010;
+    
+}
+
+
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 600;
+}
+
+.bussinessPhotos img{
+    border-radius: 10%;
+}
+
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a:last-child{
+    padding-right: 0;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+body{
+    background: url("Images/Wallpaper.jpeg")
+}
+
+.wrapper{
+    padding: 3em;
+    text-align: center;
+    display: inline-flex;
+    align-items: stretch;
+    
+}
+
+.homeText p{
+    color: white;
+    width: 80%;
+    height: 100%;
+    padding-left: 3em;
+    
+}
+
+.bussinessPhotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    border-radius: 10%;
+    padding-right: 3em;
+}
+
+h3{
+    text-align: center;
+    padding-top: 1em;
+    
+    font-size: 2.8em;
+
+    color: #ffffff;
+    padding-left: 1em;
+}
+
+.Social{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #101010;
+    
+}
+
+.Social li{
+    display: inline-block;
+    align-items: center;
+    padding: -30% -30%;
+    width: 135px;
+    height: 100px;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1sec
+}
+
+.Social li:hover{
+    background-color: #201f1f;
+    width: 110px;
+    height: 100px;
+    background-position: center;
+    border-radius: 10%;
+   
+
+}
