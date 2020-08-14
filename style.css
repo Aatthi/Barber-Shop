@@ -5,12 +5,70 @@
 	text-decoration: none;
 }
 
+.header-wrapper {
+	background-image: url(Images/main1-LS.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: fit-content;
+	color: white;
+	opacity: 0.9;
+}
+
 .header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo-image {
+	opacity: 0.3;
+}
+
+.header nav {
+	display: flex;
+}
+
+.header nav a {
+	margin: 0 50px;
+	font-family: 'Raleway', sans-serif;
+	font-style: ;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 0 450px;
+	justify-content: space-between;
+}
+
+.main-text h1 {
+	font-size: 60px;
+	margin: 30px 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.main-text p {
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+}
+
+/* .header {
 	width: 100%;
 	height: 100px;
 	display: block;
 	background-color: #000000;
-	opacity: 0.8;
 }
 
 .inner_header {
@@ -67,7 +125,7 @@
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-}
+} */
 
 a:hover {
 	background-color: rgb(42, 42, 42);
